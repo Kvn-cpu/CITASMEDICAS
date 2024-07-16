@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>CITAS</title>
+</head>
+<body>
+    
+    <div id="formcitas" class="box">
+        <h3>Registro de Citas</h3>
+      <form id="registrocita">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required placeholder="Digita tu nombre" >
+        <div class="centrado">
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" required placeholder="Digita una fecha" >
+       </div>
+       <div class="centrado">
+        <label for="hora">Hora</label>
+        <input type="time" id="hora">
+        </div>
+        <label for="sintomas">sintomas</label>
+        <input type="text" id="sintomas" required placeholder="Describe los síntomas">
+        <button type="submit">Guardar</button>
+      </form> 
+
+    </div>
+    
+    <div id="tablacitas">
+        <table >
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Fecha</th>
+                    <th>Hora</th>
+                    <th>Sintomas</th>
+                    <th>Accion</th>
+                </tr>
+            </thead>
+            <tbody id="planillacitas">
+
+            </tbody>
+        </table>
+    </div>
+
+    <div id="contenedor" class="box">
+        <h3>Citas Registradas</h3>
+        <div id="filtroNombre">
+            <label for="filtronombre">Filtrar por Nombre:</label>
+            <input type="text" id="filtronombre">
+            <button onclick="filtrarpornombre()">Filtrar</button>
+        </div>
+
+    </div>
+    <script src="./script/register.js"></script>
+    
+</body>
+</html>

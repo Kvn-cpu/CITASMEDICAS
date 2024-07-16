@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 150px;
+    background-image: url(../img/cita02.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.box {
+    border: 1px solid #ffffff;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input{
+    border: 1px solid #4e3939;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #4e3939;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    background-color: #f4f4f4;
+}
+
+.centrado{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+#fecha{
+    width: 70%; 
+    margin-left: 20%;
+
+}
+#hora{
+    width: 70%; 
+    margin-left: 20.5%;
+}
+#sintomas {
+    height: 100px;
+}
+
